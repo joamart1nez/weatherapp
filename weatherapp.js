@@ -41,7 +41,7 @@ function displayResults(weather){
     hiLow.innerHTML =  `Min ${Math.floor(weather.main.temp_min-274.15)}°c / Max ${Math.ceil(weather.main.temp_max-274)}°c`;
 
     let visibility = document.querySelector('.wind');
-    visibility.innerHTML = `Wind <br> ${weather.wind.speed} m/s`;
+    visibility.innerHTML = `Velocidad del viento <br> ${weather.wind.speed} m/s`;
 
     let humidity = document.querySelector('.humidity');
     humidity.innerHTML = `Humedad <br> ${weather.main.humidity}%`;
